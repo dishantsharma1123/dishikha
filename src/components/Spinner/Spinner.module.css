@@ -1,0 +1,21 @@
+.spinner {
+  border: sold 0.2rem transparent;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .spinner {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}

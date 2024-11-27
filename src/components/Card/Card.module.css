@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.content {
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 12px;
+  }
+}

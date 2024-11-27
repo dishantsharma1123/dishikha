@@ -1,0 +1,32 @@
+# Node modules (already ignored by default by npm)
+node_modules/
+
+# npm package lock file (not necessary for the npm package)
+package-lock.json
+
+# Source files (exclude src from the npm package, as it's unnecessary to include it)
+src/
+
+# Configuration files (not necessary for npm package consumers)
+*.config.js
+tsconfig.json
+rollup.config.js
+
+# Development tools or temporary files
+*.log
+*.swp
+*.bak
+
+# Tests (if any)
+test/
+tests/
+
+# IDE/Editor-specific files (not needed for npm package)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
